@@ -23,7 +23,13 @@ export {
   columnResizingPluginKey,
   ResizeState,
 } from './columnresizing';
+export {
+  rowResizing,
+  rowResizingPluginKey,
+  RowResizeState
+} from './rowresizing';
 export type { ColumnResizingOptions, Dragging } from './columnresizing';
+export type { RowResizingOptions, DraggingRow } from './rowresizing';
 export * from './commands';
 export {
   clipCells as __clipCells,

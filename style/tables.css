@@ -23,9 +23,21 @@
   background-color: #adf;
   pointer-events: none;
 }
+
+.ProseMirror .row-resize-handle {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 4px;
+  z-index: 20;
+  background-color: #adf;
+  pointer-events: none;
+}
+
 .ProseMirror.resize-cursor {
   cursor: ew-resize;
   cursor: col-resize;
+  cursor: row-resize;
 }
 /* Give selected cells a blue overlay */
 .ProseMirror .selectedCell:after {
